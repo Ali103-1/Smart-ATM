@@ -1,0 +1,100 @@
+%%%prepared by Dr Faisal Alhwikem 05/09/2021
+%%%this template for documenting meetings agenda
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{lscape,longtable}
+
+\oddsidemargin 0cm
+\evensidemargin 0 cm
+\textwidth 15 cm
+\topmargin -1.2 cm
+\textheight 22 cm
+
+%%%% & in table means navigate to next column
+%%%% \\ in table means new line
+%%%% \hline horizontal line
+\begin{document}
+\newpage
+\centering
+ \begin{tabular}{||p{7.5cm}|p{8cm}||}
+ \hline\hline
+ \multicolumn{2}{||c||}{}\\
+ \multicolumn{2}{||c||}{\textbf{\textbf{\begin{large}Meeting Agenda\end{large}}}}\\
+ \multicolumn{2}{||c||}{}\\
+ \hline\hline
+ %% START OF PARTS THAT YOU CAN EDIT
+
+ \ & \\ % empty line in table 
+ \ \textbf{Goal:} & Meeting with the client \\
+ \ \textbf{Date and Time:} & 10/14/2021 3PM\\
+ \ \textbf{Avenue :}& Zoom\\
+ \ & \\ % empty line in table
+ \hline\hline % horizontal line
+ 
+ \ & \\
+ \ \textbf{Chair:} & Ali Althawab\\
+ \ & \\
+ \hline
+ \ & \\
+ \ \textbf{Client:} & Mr.Faisal Alhwaikem \\
+ \ & \\
+
+ \hline\hline
+
+ \ \multirow{6}{*}{\textbf{Attendance:}} %multirow of 6 lines because we have 6 lines in next column
+ \ & \\
+ & 1. Saleh Altasan\\
+ & 2. Abdulrahman saad Altami\\
+ & 3. Ali Ayeel Alsammani\\
+ & 4. Mohammed Almarzooq\\
+ \ & \\
+
+ \hline\hline
+ \ \textbf{Absent with Apologies:}
+ &  Turky Alhazimi \\
+
+ %% END OF PARTS THAT YOU CAN EDIT
+ \hline\hline
+\end{tabular}
+
+
+%%%%%%%%%%%%%%% agenda items table
+ \ { }\\
+ \ { }\\
+  \begin{tabular}{||p{3.0cm}|p{11.0cm}|p{1.0cm}||}
+   \hline\hline
+   \multicolumn{3}{||c||}{}\\
+   \multicolumn{3}{||c||}{\textbf{\begin{Large}Agenda Items\end{Large}}}\\
+   \multicolumn{3}{||c||}{}\\
+   \hline\hline
+   %% START OF PARTS THAT YOU CAN EDIT
+
+   \ &  &  \\
+   \ \textbf{Area} & \textbf{Goal} & \textbf{Time} \\
+   \ &  &  \\
+   \hline\hline
+   \ & &\\
+   \ \multirow{1}{*}{Last meeting} & Choosing software process activity model & -\\
+   \ & &\\
+   \hline
+   \ & &\\
+   \ \multirow{1}{*}{Requirements} & Meeting with the client & 30min\\
+   \ & &\\
+   \hline
+   \ & &\\
+   \ \multirow{1}{*}{Task Management} &... & -\\
+   \ & &\\
+   \hline 
+   \ \multirow{4}{*}{Technical Q\&A} & & \multirow{4}{*}{-}\\
+ 	 & - ... & \\
+     &&\\
+   \hline
+   \ &&\\
+   \ \multirow{1}{*}{SRS Critique} & ...  & -\\
+   \ &&\\
+   
+   %% END OF PARTS THAT YOU CAN EDIT
+   \hline\hline
+  \end{tabular}
+\end{document}
