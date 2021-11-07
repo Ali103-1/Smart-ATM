@@ -1,0 +1,101 @@
+%%%prepared by Dr Faisal Alhwikem 05/09/2021
+%%%this template for documenting meetings agenda
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{lscape,longtable}
+
+\oddsidemargin 0cm
+\evensidemargin 0 cm
+\textwidth 15 cm
+\topmargin -1.2 cm
+\textheight 22 cm
+
+%%%% & in table means navigate to next column
+%%%% \\ in table means new line
+%%%% \hline horizontal line
+\begin{document}
+\newpage
+\centering
+ \begin{tabular}{||p{7.5cm}|p{8cm}||}
+ \hline\hline
+ \multicolumn{2}{||c||}{}\\
+ \multicolumn{2}{||c||}{\textbf{\textbf{\begin{large}Meeting Agenda\end{large}}}}\\
+ \multicolumn{2}{||c||}{}\\
+ \hline\hline
+ %% START OF PARTS THAT YOU CAN EDIT
+
+ \ & \\ % empty line in table 
+ \ \textbf{Goal:} & Assigning tasks to team members and Checking progress on SRS documentation  \\
+ \ \textbf{Date and Time:} & 11/7/2021 6PM\\
+ \ \textbf{Avenue :}& Zoom\\
+ \ & \\ % empty line in table
+ \hline\hline % horizontal line
+ 
+ \ & \\
+ \ \textbf{Chair:} & Ali Althawab\\
+ \ & \\
+ \hline
+ \ & \\
+ \ \textbf{Client:} & Mr.Faisal Alhwaikem \\
+ \ & \\
+
+ \hline\hline
+
+ \ \multirow{6}{*}{\textbf{Attendance:}} %multirow of 6 lines because we have 6 lines in next column
+ \ & \\
+ & 1. Saleh Altasan\\
+ & 2. Abdulrahman saad Altami\\
+ & 3. Ali Ayeel Alsammani\\
+ & 4. Mohammed Almarzooq\\
+ & 5. Turky Alhazimi\\
+ \ & \\
+
+ \hline\hline
+ \ \textbf{Absent with Apologies:}
+ &  None \\
+
+ %% END OF PARTS THAT YOU CAN EDIT
+ \hline\hline
+\end{tabular}
+
+
+%%%%%%%%%%%%%%% agenda items table
+ \ { }\\
+ \ { }\\
+  \begin{tabular}{||p{3.0cm}|p{11.0cm}|p{1.0cm}||}
+   \hline\hline
+   \multicolumn{3}{||c||}{}\\
+   \multicolumn{3}{||c||}{\textbf{\begin{Large}Agenda Items\end{Large}}}\\
+   \multicolumn{3}{||c||}{}\\
+   \hline\hline
+   %% START OF PARTS THAT YOU CAN EDIT
+
+   \ &  &  \\
+   \ \textbf{Area} & \textbf{Goal} & \textbf{Time} \\
+   \ &  &  \\
+   \hline\hline
+   \ & &\\
+   \ \multirow{1}{*}{Last meeting} & Assigning tasks to team members & -\\
+   \ & &\\
+   \hline
+   \ & &\\
+   \ \multirow{1}{*}{Requirements} & Analysis of requriement & 15min\\
+   \ & &\\
+   \hline
+   \ & &\\
+   \ \multirow{1}{*}{Task Management} & Identify important tasks and divide workload & 20min\\
+   \ & &\\
+   \hline 
+   \ \multirow{4}{*}{Technical Q\&A} & & \multirow{4}{*}{10min}\\
+ 	 & - Understand user files and parsing them & \\
+     &&\\
+   \hline
+   \ &&\\
+   \ \multirow{1}{*}{SRS Critique} & ...  & -\\
+   \ &&\\
+   
+   %% END OF PARTS THAT YOU CAN EDIT
+   \hline\hline
+  \end{tabular}
+\end{document}
